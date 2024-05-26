@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { 
             nome: "Roberto Hensel", 
             rg: "12056", 
-            dataInclusao: "2023-05-18", 
+            dataInclusao: "18/05/2024", 
             motivo: "Racismo", 
             responsavel: "Prozi Mal [390]", 
             servicosNegados: "Compras de bandagens, laudo psicológico", 
@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.querySelectorAll('.clickable').forEach(item => {
         item.addEventListener('click', function() {
-            document.getElementById("servicos-negados").textContent = this.dataset.servicosNegados;
-            document.getElementById("servicos-liberados").textContent = this.dataset.servicosLiberados;
+            document.getElementById("servicos-negados").innerHTML = "<ul><li>" + this.dataset.servicosNegados.split(", ").join("</li><li>") + "</li></ul>";
+            document.getElementById("servicos-liberados").innerHTML = "<ul><li>" + this.dataset.servicosLiberados.split(", ").join("</li><li>") + "</li></ul>";
             popup.style.display = "block";
         });
     });
