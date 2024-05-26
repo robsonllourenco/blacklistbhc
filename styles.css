@@ -113,6 +113,34 @@ tr:hover {
     text-align: left;
 }
 
+.popup-content h2 {
+    color: #7f20c4;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.popup-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popup-content ul li {
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.popup-content ul:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #7f20c4;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
 .close {
     color: #aaa;
     float: right;
@@ -125,6 +153,35 @@ tr:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+/* Nome na Black List */
+.clickable {
+    border: px solid #7f20c4;
+    border-radius: 0px;
+    padding: 0px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.clickable:hover {
+    background-color: #7f20c4;
+    color: white;
+}
+
+.clickable:hover::before {
+    content: "";
+    background-image: url('lupa.png'); /* Substitua 'icone-lupa.png' pelo caminho do seu ícone */
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Responsividade */
