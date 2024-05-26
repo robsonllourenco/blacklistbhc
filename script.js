@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
             nome: "Junior Rangel", 
             rg: "7658", 
             dataInclusao: "26/05/2024", 
-            motivo: "Falta de Compromisso - Repetidas entradas e saídas da equipe", 
+            motivo: "Falta de Compromisso, com repetidas entradas e saídas da equipe", 
             responsavel: "Ministro [273]", 
             servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
             servicosLiberados: "Ser reanimado" 
