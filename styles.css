@@ -194,3 +194,12 @@ tr:hover {
         font-size: 0.9rem;
     }
 }
+
+/* Rodapé */
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
