@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Black List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logobhc.png" alt="Logo do Hospital" class="hospital-logo">
+    </header>
+    <div class="container">
+        <input type="text" id="searchRG" placeholder="Procurar por RG..." onkeyup="searchRG()">
+        <table id="blackListTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>RG</th>
+                    <th>Data de Inclusão</th>
+                    <th>Motivo</th>
+                    <th>Responsável</th>
+                </tr>
+            </thead>
+            <tbody id="blackListBody">
+                <!-- Lista será preenchida pelo JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Serviços Restritos</h2>
+            <p id="servicos-negados"></p>
+            <h2>Serviços Liberados</h2>
+            <p id="servicos-liberados"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
