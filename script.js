@@ -1,40 +1,58 @@
 document.addEventListener("DOMContentLoaded", function() {
     const blackList = [
         { 
+            nome: "Goiaba XerecrazyJR", 
+            rg: "2150", 
+            dataInclusao: "08/05/2024", 
+            motivo: "Falta de respeito generalizado", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
+        },
+        { 
+            nome: "Ribeiro Miro", 
+            rg: "7928", 
+            dataInclusao: "09/05/2024", 
+            motivo: "Falta de respeito generalizado", 
+            responsavel: "Startino [278]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
+        },
+        { 
             nome: "Roberto Hensel", 
             rg: "12056", 
             dataInclusao: "18/05/2024", 
             motivo: "Racismo", 
             responsavel: "Prozi Mal [390]", 
-            servicosNegados: "Compras de bandagens, laudo psicológico", 
-            servicosLiberados: "Reanimação" 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
         },
         { 
-            nome: "Maria Oliveira", 
-            rg: "87654321", 
-            dataInclusao: "2023-02-20", 
-            motivo: "Violência verbal", 
-            responsavel: "Enfermeira Carla", 
-            servicosNegados: "Não pode comprar bandagem, emitir laudo psicológico", 
-            servicosLiberados: "Pode ser reanimado" 
+            nome: "Anthony Becker", 
+            rg: "12054", 
+            dataInclusao: "18/05/2024", 
+            motivo: "Racismo", 
+            responsavel: "Prozi Mal [390]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
         },
         { 
-            nome: "Carlos Souza", 
-            rg: "11223344", 
-            dataInclusao: "2023-03-12", 
-            motivo: "Conduta imprópria", 
-            responsavel: "Dr. Bezerra", 
-            servicosNegados: "Não pode comprar bandagem, emitir laudo psicológico", 
-            servicosLiberados: "Pode ser reanimado" 
+            nome: "Jair Bolsonaro", 
+            rg: "283", 
+            dataInclusao: "18/05/2024", 
+            motivo: "Atrapalhando o RP do HP de maneira geral", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
         },
         { 
-            nome: "Ana Costa", 
-            rg: "44332211", 
-            dataInclusao: "2023-04-10", 
-            motivo: "Não pagamento de contas", 
-            responsavel: "Administrativo Pedro", 
-            servicosNegados: "Não pode comprar bandagem, emitir laudo psicológico", 
-            servicosLiberados: "Pode ser reanimado" 
+            nome: "Alencar Oliveira", 
+            rg: "9548", 
+            dataInclusao: "18/05/2024", 
+            motivo: "Desrespeito", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
         }
     ];
 
