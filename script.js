@@ -62,6 +62,15 @@ document.addEventListener("DOMContentLoaded", function() {
             responsavel: "Ministro [273]", 
             servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
             servicosLiberados: "Ser reanimado" 
+        },
+        { 
+            nome: "Luna Moon", 
+            rg: "4127", 
+            dataInclusao: "29/05/2024", 
+            motivo: "Falta de Compromisso, com repetidas entradas e saídas da equipe", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
         }
     ];
 
