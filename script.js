@@ -71,6 +71,33 @@ document.addEventListener("DOMContentLoaded", function() {
             responsavel: "Ministro [273]", 
             servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
             servicosLiberados: "Ser reanimado" 
+        },
+        { 
+            nome: "Kevin Velenzuela", 
+            rg: "11496", 
+            dataInclusao: "07/06/2024", 
+            motivo: "Falta de respeito generalizado", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
+        },
+       { 
+            nome: "Kauan FTW", 
+            rg: "835", 
+            dataInclusao: "07/06/2024", 
+            motivo: "Falta de respeito generalizado", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
+        },
+      { 
+            nome: "Leonny Oliveira", 
+            rg: "10325", 
+            dataInclusao: "07/06/2024", 
+            motivo: "Falta de respeito generalizado", 
+            responsavel: "Ministro [273]", 
+            servicosNegados: "Compras de Bandagens, Compras de Bloody Mary, Tratamentos, Emissão do Laudo AP para o porte de arma, Fazer parte da equipe HP/SAMU", 
+            servicosLiberados: "Ser reanimado" 
         }
     ];
 
